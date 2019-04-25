@@ -1,0 +1,296 @@
+/* 
+* @Author: HP
+* @Date:   2018-12-26 16:50:56
+* @Last Modified by:   HP
+* @Last Modified time: 2019-01-15 19:22:52
+*/
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none; vertical-align: top;}
+a{text-decoration: none;}
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.gWidth{
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wryh{
+	font-family: "微软雅黑";
+}
+.leftcss{
+	width: 640px;
+	float: left;
+}
+.rightcss{
+	width: 310px;
+	margin-left: 20px;
+	float: left;
+}
+
+.paihang {
+	float: right;
+	width: 310px;
+	height: 31px;
+	margin-top: 4px;
+}
+.paihang li.first{
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	color: white;
+	background-color: #05A6E0;
+	padding: 0 8px;
+}
+.paihang li{
+	float: left;
+	padding: 4px 10px 0 10px;
+}
+.paihang li:hover{
+	background-color: #05A6E0;
+	padding: 0 8px;
+	color: white;
+	line-height: 31px;	
+}
+.zongyizi{
+	float: left;
+	font-size: 26px;
+	margin-right: 17px;
+	color: #8F8F8F;
+}
+.zongyititle{
+	float: left;
+	width: 500px;
+	height: 31px;
+	margin-top: 4px;
+}
+.zongyititle li.first{
+	width: 76px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	color: white;
+	background-color: #05A6E0;
+	padding: 0 8px;
+}
+.zongyititle li{
+	float: left;
+	padding: 4px 11px 0 11px;
+}
+.zongyititle li:hover{
+	background-color: #05A6E0;
+	padding: 0 8px;
+	color: white;
+	width: 76px;
+	height: 31px;
+	line-height: 31px;	
+}
+.xiabian{
+	margin-top: 20px;
+}
+.dianyingright{
+	margin-top: 20px;
+}
+.dianyingright .longmen li{
+	width: 310px;
+	height: 20px;
+	margin-bottom: 10px;
+	float: left;
+	padding-left: 28px;
+	font-size: 14px;
+	color: #535353;
+	background: url(../images/4.gif) no-repeat left center;
+}
+.dianyingright .longmen li span{
+	float: right;
+	color: #8F8F8F;
+
+}
+.dianyingright .longmen .yi{
+	background: url(../images/1.gif) no-repeat left center;
+}
+.dianyingright .longmen .er{
+	background: url(../images/2.gif) no-repeat left center;
+}
+.dianyingright .longmen .san{
+	background: url(../images/3.gif) no-repeat left center;
+}
+.dianyingright  .zhishu{
+	margin-top: 10px;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.zuijiaright{
+	margin-top: 26px;
+}
+.zuijiaright li{
+	height: 50px;
+	margin-bottom:  10px;
+	width: 240px;
+	font-size: 14px;
+}
+.zuijiaright .last{
+	margin-bottom: 0;
+}
+.zuijiaright li span{
+	font-family: "宋体";
+	font-style: 12px;
+	color: #8F8F8F;
+}
+.zuijiaright li img{
+	float: left;
+}
+
+.tianwang {
+	margin-bottom: 23px;
+}
+.tianwang li{
+	float: left;
+	width: 200px;
+	height: 168px;
+	background-color: #F5F5F5;
+	position: relative;
+	margin-right: 20px;
+}
+.tianwang  .last{
+	margin-right: 0;
+}
+.tianwang li .shijian{
+	position: absolute;
+	right: 5px; top: 90px;
+	color: white;
+	font-size: 14px;
+}
+.tianwang li p{
+	line-height: 21px;
+}
+.tianwang li .tianwang1{
+	font-size: 14px;
+	color: #535353;
+	margin-left: 5px;
+	margin-top: 7px;
+
+}
+.tianwang li .bofang{
+	padding-left: 16px;
+	margin-left: 5px;
+	color: #8F8F8F;
+	font-size: 12px;
+	font-family: "Arial";
+	margin-top: 6px;
+	background: url(../images/bofangliang.gif) no-repeat left center;
+}
+.tianwang li .bofang span{
+	padding-left: 20px;
+	color: #535353;
+	font-family: "宋体";
+	background: url(../images/ren.gif) no-repeat left center;
+}
+.xinbuxinul li{
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+.xinbuxinul li .xinbuxinwenzi{
+	position: absolute;
+	left:5px; bottom: 5px;
+}
+.xinbuxinul .last{
+	margin-right: 0;
+}
+.xinbuxinul li .xinbuxinwenzi .diyihang{
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.xinbuxinul li .xinbuxinwenzi .dierhang{
+	font-size: 12px;
+	color: #B9B9B9;
+	padding-left: 16px;
+	background: url(../images/bofangliang.gif) no-repeat left center;
+}
+.dianshi .xiabiande .youbian .last{
+	margin-bottom: 0;
+}
+
+
+.shipin{
+	position: relative;
+
+}
+.shipin .diyihang{
+	color: white;
+}
+.shipin .dingweishipin{
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	padding-left: 75px;
+}
+.shipin .youku{
+	position: absolute;
+	left: 2px;
+	bottom: 5px;
+}
+.shipin .dierhang{
+	font-family: "宋体";
+	font-size: 12px;
+	background: url(../images/ren.gif) 
+	no-repeat left center;
+	padding-left: 15px;
+	color: white;
+}
+.shipin .dierhang span{
+	padding-left: 20px;
+	color: #B9B9B9;
+}
+.shipin .dierhang .bofang{
+	background: url(../images/bofangliang.gif) 
+	no-repeat left center;
+}
+.shipin .dierhang .taolun{
+	background: url(../images/pinglun.gif) 
+	no-repeat left center;
+}
+.youbian li{
+	position: relative;
+}
+.youbian li .youyi{
+	position: absolute;
+	left: 5px;
+	bottom: 4px;
+	font-size: 14px;
+	color: white;
+}
+.youbian li .san{
+	position: absolute;
+	left: 4px;
+	top: 10px;
+	color: white;
+}
+.youbian li .san .henan{
+	font-size: 14px;
+	color: #ECF2E6;
+}
+.youbian li .san .nvying{
+	font-size: 12px;
+	margin-top: 4px;
+	color: #B8B7B3;
+}
+.youbian li .san .nvying span{
+	margin-left: 28px;
+	padding-left: 15px;
+	background: url(../images/bofangliang.gif)
+	no-repeat left center;
+}
+.youbian li .san .smgbb{
+	padding-left: 15px;
+	font-size: 12px;
+	background: url(../images/ren.gif)
+	no-repeat left center;
+}
+.youbian li .san .lanbofang{
+	margin-top: 8px;
+}
